@@ -1,0 +1,43 @@
+## Dependencies
+node_modules/
+
+## Next.js / frontend build artifacts
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+
+## Python / backend artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+## Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+
+## Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+## OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+## Misc project-local storage
+storage/
