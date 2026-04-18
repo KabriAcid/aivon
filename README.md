@@ -8,6 +8,7 @@ This project is presentation-ready and designed to feel like a real product, eve
 ## Stack
 
 ### Frontend (repo root)
+
 - Next.js 14 (App Router)
 - TypeScript
 - Tailwind CSS
@@ -15,6 +16,7 @@ This project is presentation-ready and designed to feel like a real product, eve
 - Recharts
 
 ### Backend
+
 - FastAPI
 - REST + WebSocket endpoints
 - OpenAI integration with fallback responses
