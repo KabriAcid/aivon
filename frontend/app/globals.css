@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-main: #080c16;
+  --bg-gradient:
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(78, 224, 162, 0.18),
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 80% 0%,
+      rgba(109, 168, 255, 0.18),
+      transparent 38%
+    ),
+    linear-gradient(160deg, #080c16 0%, #0d1324 60%, #0a0f1d 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: var(--bg-main);
+  color: #eef4ff;
+  font-family: "Sora", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-image: var(--bg-gradient);
+  background-attachment: fixed;
+}
+
+.glass {
+  background: rgba(19, 24, 40, 0.68);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.grid-pattern {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
